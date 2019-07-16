@@ -1,3 +1,41 @@
+body{
+    background-color:darkkhaki;
+    
+        background-color: darkkhaki;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex: colum;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    
+}
 h1{
-    text-align: center;
+    font-size: 5em;
+    font-family: cursive;
+}
+button{
+    padding: 10px 3em;
+    font-size: 2em;
+    font-family: monospace;
+    background-color: cadetblue;
+    border: none;
+    border-radius: -14em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px blue;
+    cursor: pinter;
+    cursor: pointer;
+    margin-bottom: 1em;
+    transition: all 0.5s;
+    font-family: sans-serif;
+}
+button:hover{
+background-color:gray;
+color:gold;
+}
+button:active{
+    box-shadow:none;
+    color:red;
+    background-color:yellowgreen;
 }
